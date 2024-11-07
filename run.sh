@@ -5,7 +5,7 @@ while true; do
   read -p "Nombre del proyecto [quickstart]: " PROJECT
 
   if [ "$PROJECT" != "" ]; then
-    git clone git@github.com:Roger963/milenium.git $PROJECT
+    git clone https://github.com/Roger963/milenium.git $PROJECT
     cd $PROJECT
     echo "PROJECT=$PROJECT" >> .env
     break

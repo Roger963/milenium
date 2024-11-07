@@ -2,7 +2,7 @@
 # Initial configuration of "Odoo" project
 
 while true; do
-  read -p "Nombre del proyecto [quickstart]: " PROJECT
+  read -p "Nombre del proyecto [quickstart]: " $PROJECT
 
   if [ "$PROJECT" != "" ]; then
     git clone https://github.com/Roger963/milenium.git $PROJECT

@@ -34,9 +34,8 @@ Crea un nuevo proyecto de `odoo` ejecutando el siguiente comando; ingrese `Nombr
 elija la `versión de Odoo`.
 
 ```shell
-bash <(curl -s https://gitlab.com/sre_resource/docker/odoo-docker-compose/-/raw/main/run.sh)
+bash <(curl -s https://github.com/Roger963/milenium/blob/master/run.sh)
 ```
-
 **Advertencia**: después de este punto, cambie 'super_ecommerce'. a su propia información.
 Por ejemplo:
 

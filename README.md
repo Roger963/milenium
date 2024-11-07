@@ -34,7 +34,8 @@ Crea un nuevo proyecto de `odoo` ejecutando el siguiente comando; ingrese `Nombr
 elija la `versión de Odoo`.
 
 ```shell
-bash <(curl -s https://github.com/Roger963/milenium/blob/master/run.sh)
+bash <(curl -s https://raw.githubusercontent.com/Roger963/milenium/master/run.sh)
+
 ```
 **Advertencia**: después de este punto, cambie 'super_ecommerce'. a su propia información.
 Por ejemplo:

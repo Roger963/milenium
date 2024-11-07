@@ -3,7 +3,6 @@
 
 while true; do
   read -p "Nombre del proyecto [quickstart]: " PROJECT
-
   if [ "$PROJECT" != "" ]; then
     git clone https://github.com/Roger963/milenium.git $PROJECT
     cd $PROJECT
@@ -11,6 +10,7 @@ while true; do
     break
   fi
 done
+
 
 PS3="Seleccione de 1, 2, 3, 4, 5, 6, 7, 8, 9 [1]: "
 echo "Seleccione versión de Odoo:"
